@@ -1,0 +1,50 @@
+main {
+	margin: 0 auto;
+	width: 980px;
+}
+body {
+	margin: 0 auto;
+	width: 980px;
+	font-family: monospace;
+}
+.texto{
+	margin: 0%;
+}
+.list{
+	list-style-type:none;
+	
+}
+.list li{
+	margin-left: 30px;
+	margin-top: 20px;
+	font-family: Courier New;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 600;
+	opacity: 80%;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+	border: black;
+	
+
+}
+.list li:hover{
+	opacity: 100%;
+	
+	border-bottom: 5px solid rgb(0, 0, 0)!important;
+	
+}
+@keyframes borda{
+	0% { }
+}
+.titulo {
+	font-family: inherit;
+	font-size: 1.65em;
+	margin: 0%;
+	font-weight: 600;
+	padding-top: 28px;
+	margin-left: 160px;
+}
+.titulo:hover{
+	opacity: .7;
+}
