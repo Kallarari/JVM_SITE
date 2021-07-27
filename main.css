@@ -1,65 +1,79 @@
 main {
-	margin: 0 auto;
-	width: 980px;
+  margin: 0 auto;
+  width: 980px;
 }
-.head{
-	background-color: tomato;
-}
+
 body {
-	margin: 0 auto;
-	width: 980px;
-	background-image: url("./img/backgorund_img.png");
+  margin: 0 auto;
+  width: 980px;
+  background-image: url("./img/backgorund_img.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
-.list{
-	list-style-type:none;
-	align-items: center;
-	flex-direction: column;
-  	justify-content: flex-start;
+.list {
+  list-style-type: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
 }
-.list li{
-	margin-left: 30px;
-	margin-top: 20px;
-	margin-bottom: 29px;
-	font-family: Courier New;
-	cursor: pointer;
-	font-size: 20px;
-	font-weight: 600;
-	opacity: 80%;
-    line-height: 1.6em;
-    letter-spacing: 0px;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
+.list li {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 29px;
+  font-family: Courier New;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 80%;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 .titulo {
-	font-family: inherit;
-	font-size: 1.65em;
-	margin: 0%;
-	font-weight: 600;
-	padding-top: 28px;
-	margin-left: 190px;
-	color: white;
+  font-family: inherit;
+  font-size: 1.65em;
+  margin: 0%;
+  font-weight: 600;
+  padding-top: 28px;
+  margin-left: 190px;
+  color: white;
 }
-.bar,.bar1,.bar2 {
-	background-color: black;
-	height: 3px;
-	margin:  0;
-	position: relative;
-	transition: width 300ms ease-in-out;
-	width: 0;
-  }
-  .contats,.home,.portfolio{
-	color:white;
-	float: left;
-  }
-  .contats:hover .bar {
-	width: 100%;
-  }
-  .home:hover .bar1{
-	  width: 100%;
-  }
-  .portfolio:hover .bar2{
-	width: 100%;
+.bar,
+.bar1,
+.bar2 {
+  background-color: black;
+  height: 3px;
+  margin: 0;
+  position: relative;
+  transition: width 300ms ease-in-out;
+  width: 0;
+}
+.contats,
+.home,
+.portfolio {
+  color: white;
+  float: left;
+}
+.contats:hover .bar {
+  width: 100%;
+}
+.home:hover .bar1 {
+  width: 100%;
+}
+.portfolio:hover .bar2 {
+  width: 100%;
+}
+.sublinhado {
+  font-size: 40px;
+  color: #375170;
+  text-align: center;
+}
+.gray_page{
+	background-image: url(./img/background_gray.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
