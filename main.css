@@ -72,8 +72,8 @@ body {
   color: #375170;
   text-align: center;
 }
-.gray_page{
-	background-image: url(./img/background_gray.png);
+.grey {
+	background-image: url("./img/background_grey.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
